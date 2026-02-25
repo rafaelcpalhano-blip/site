@@ -26,7 +26,7 @@
         <h2>Sobre Mim</h2>
 
         <img src="Images/Imagem Sobre Mim/Sobre mim2.jpg" alt="
-            Erro ao carregar, muita belza envolvida!" title="Imagem de Perfil Rafael"  style="width:25%; height:auto;">
+            Erro ao carregar, muita belza envolvida!" title="Imagem de Perfil Rafael" style="width:25%; height:auto;">
         <article>
             <p>
                 Sou Rafael, praticando desenvolvimento web. Expandindo os conhecimentos em HTML :D
@@ -59,17 +59,47 @@
     </section>
 
     <footer>
-<p>Direitos Revervados a Rafael</p>
+        <p>Direitos Revervados a Rafael</p>
 
-<section id="contato">
-    <h2>Contato:</h2>
-    <p>Tem um projeto em mente? Entre em contato!</p>
+        <section id="contato">
+            <h2>Contato:</h2>
+            <p>Tem um projeto em mente? Entre em contato!</p>
 
-    <address>
-        E-mail: <a href="mailto:rafaelcpalhano@gmail.com">rafaelcpalhano@gmail.com</a> <br>
-        Telefone: <a href="tel:+55(48) 99642 6456">(48) 99642 6456</a>
-    </address>
-</section>
+            <address>
+                E-mail: <a href="mailto:rafaelcpalhano@gmail.com">rafaelcpalhano@gmail.com</a> <br>
+                Telefone: <a href="tel:+55(48) 99642 6456">(48) 99642 6456</a><br>
+            </address>
+
+            <form action="">
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone" name="telefone"><br><br>
+
+                    <label for="assunto">Assunto: </label>
+                    <select name="assunto" id="assunto">
+                        <option value="orçamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select><br>
+                    <br>
+                    <label for="menssagem">Menssagem:</label><br>
+                    <textarea name="menssagem" id="menssagem" cols="40" rows="8" maxlength="500" minlength="50" title="Max 500 caracteres" required ></textarea><br>
+
+                    <input type="checkbox" id="incricao" name="incricao">
+                    <label for="incricao">Deseja receber minha newsletter, fique por dentro.</label><br>
+
+                    <input type="submit" value="Enviar Menssagem">
+
+
+                </p>
+            </form>
+        </section>
     </footer>
 </body>
 
