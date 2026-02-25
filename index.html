@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael Test Name</title>
+    <style>
+table {
+  border: 1px solid olivedrab;
+  border-radius: 6px;
+}
+</style>
 </head>
 
 <body>
@@ -58,52 +64,52 @@
 
     </section>
 
-<section id="habilidades">
-<h2>Habilidades e Tecnologias</h2>
+    <section id="habilidades">
+        <h2>Habilidades e Tecnologias</h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Tecnologia</th>
-            <th>Nível</th>
-            <th>Descrição</th>
-        </tr>
-    </thead> 
-    <tbody>
-        <tr>
-            <td>HTML</td>
-            <td>Iniciante</td>
-            <td>Capaz de contruir estruturas e páginas semânticas e responsivas.</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>Intermediário</td>
-            <td>Experiencia com flexbox, grid e animações.</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>Básico</td>
-            <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
-        </tr>
-        <tr>
-            <td>C#</td>
-            <td>Iniciante</td>
-            <td>Focado em Unity</td>
-        </tr>
-        <tr>
-            <td>Unity</td>
-            <td>Iniciante</td>
-            <td>Noção básica 2D, Gamecontroller, Assets e movimentação 2D</td>
-        </tr>
-    </tbody>
-</table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas e páginas semânticas e responsivas.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>Iniciante</td>
+                    <td>Focado em Unity.</td>
+                </tr>
+                <tr>
+                    <td>Unity</td>
+                    <td>Iniciante</td>
+                    <td>Noção básica 2D, GameController, Assets e Movimentação 2D.</td>
+                </tr>
+            </tbody>
+        </table>
 
 
 
-</section>
+    </section>
 
     <footer>
-        <p>Direitos Revervados a Rafael</p>
+        
 
         <section id="contato">
             <h2>Contato:</h2>
@@ -116,34 +122,66 @@
 
             <form action="">
                 <p>
-                    <label for="nome">Nome: </label>
-                    <input type="text" id="nome" name="nome" required><br><br>
-
-                    <label for="email">E-mail: </label>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <label for="telefone">Telefone: </label>
-                    <input type="tel" id="telefone" name="telefone"><br><br>
-
-                    <label for="assunto">Assunto: </label>
-                    <select name="assunto" id="assunto">
-                        <option value="orçamento">Orçamento</option>
-                        <option value="duvida">Dúvida</option>
-                        <option value="outro">Outro</option>
-                    </select><br>
-                    <br>
-                    <label for="menssagem">Menssagem:</label><br>
-                    <textarea name="menssagem" id="menssagem" cols="40" rows="8" maxlength="500" minlength="50" title="Max 500 caracteres" required ></textarea><br>
-
-                    <input type="checkbox" id="incricao" name="incricao">
-                    <label for="incricao">Deseja receber minha newsletter, fique por dentro.</label><br>
-
-                    <input type="submit" value="Enviar Menssagem">
+                <table >
+             <thead>
+                <th><br></th>
+             </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="nome" style="margin-left: 30px;">Nome:</label></td>
+                            <td><input type="text" style="border: 2px solid olivedrab;" id="nome" name="nome" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email" style="margin-left: 30px;">E-mail:</label></td>
+                            <td><input type="email" style="border: 2px solid olivedrab;" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefone" style="margin-left: 30px;">Telefone:</label></td>
+                            <td><input type="tel" style="border: 2px solid olivedrab;" id="telefone" name="telefone"></td>
+                        </tr>
 
 
+
+                        <tr>
+                            <td><label for="assunto" style="margin-left: 30px;">Assunto:</label></td>
+                            <td><select name="assunto" style="border: 2px solid olivedrab;" id="assunto">
+                                    <option value="orçamento">Orçamento</option>
+                                    <option value="duvida">Dúvida</option>
+                                    <option value="outro">Outro</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="menssagem" style="margin-left: 30px;">Menssagem:</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center">
+                                <textarea name="menssagem" id="menssagem" placeholder="Compartilhe sua ideia de projeto comigo..." style="border: 2px solid olivedrab;" cols="44" rows="8" maxlength="500"
+                                    minlength="50" title="Max 500 caracteres" required></textarea> <br>
+                            </td>
+                        </tr>
+                        <tr >
+                            <p >
+                            <td colspan="2" ><input type="checkbox" style="margin-left: 15px;" id="incricao" name="incricao">
+                                <label for="incricao" style="margin-right: 15px;">Deseja receber minha newsletter? Fique por dentro!</label>
+                            </p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td colspan="2" style="text-align: center">
+                                <input type="submit" style="border: 2px solid olivedrab;" value="Enviar Menssagem">
+                            </td>
+                        </tr>
+                    </tbody>
+                     <tfoot>
+                <th><br></th>
+             </tfoot>
+                </table>
                 </p>
             </form>
         </section>
+        <p>Direitos Revervados a Rafael</p>
     </footer>
 </body>
 
